@@ -1,16 +1,20 @@
-# Simple RESTful API Demo
-This is a demonstration of a simple RESTful API I built using Express.js as one of the activity requirements for the WCSERVER course. Here, various endpoints were defined to implement CRUD operations on a simple dataset. HTTP methods were used to retrieve all data, retrieve data by ID, create new data, and delete data.
+# API Demo for Connecting UI and Backend(Express)
+This is demonstration of connecting UI to Backend using HTML,CSS, JavaScript and Express.
 
 ## Running the API
 1. Ensure Express.js is installed by running:
    ```
    npm install express
    ```
-2. Start the server by running:
+2. Install the nodemon module. This module enables your server to restart on its when changes are applied to the server files.
    ```
-   node index.js
+   npm install nodemon
    ```
-3. The API will be running at http://localhost:3000
+3. Run the server by typing the command below:
+   ```
+   nodemon  index.js
+   ```
+4. The API will be running at http://localhost:3000
 
 ## API Endpoints/Routes
 - Root Route or `/`: Displays available routes.
